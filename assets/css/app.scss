@@ -1,0 +1,32 @@
+// Your variable overrides
+$body-bg: #f6f6f6;
+$body-color: #111;
+
+$theme-colors: (
+        secondary: #6fc9e7,
+);
+
+#h3{
+  padding: 10px;
+  text-align: center;
+  background-color: #dfdfdf;
+  color: #222222;
+  border: solid 1px #5eb5e0!important;
+  width: 400px;
+  height: 50px
+};
+
+#p{
+  background-color: #dfdfdf;
+  color: #222222;
+  border: solid 1px #5eb5e0!important;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  width: 400px;
+  height: 50px
+
+}
+
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";

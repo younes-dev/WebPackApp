@@ -1,0 +1,17 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+#todo importing statique template
+AboutPage:
+  path:         /about
+  controller:   Symfony\Bundle\FrameworkBundle\Controller\TemplateController
+  defaults:
+    template: about/about.html.twig
+
+
+dishe:
+  path:         /dishe
+  controller:   Symfony\Bundle\FrameworkBundle\Controller\TemplateController
+  defaults:
+    template: dishe/dishe.html.twig
